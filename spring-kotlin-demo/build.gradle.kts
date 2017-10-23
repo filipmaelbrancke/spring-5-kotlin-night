@@ -56,6 +56,7 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-stdlib")
 	compile("org.jetbrains.kotlin:kotlin-reflect")
 	compile("org.springframework.boot:spring-boot-starter-web")
+	compile("org.springframework:spring-webflux")
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
 	compile("org.springframework.boot:spring-boot-starter-actuator")
 	compile("com.h2database:h2")

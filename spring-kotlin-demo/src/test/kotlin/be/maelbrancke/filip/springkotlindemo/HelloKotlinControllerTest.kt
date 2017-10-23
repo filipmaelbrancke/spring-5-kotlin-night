@@ -12,7 +12,9 @@ import org.springframework.http.HttpStatus
 import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
-@SpringBootTest(classes = arrayOf(Application::class), webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(
+        classes = arrayOf(Application::class),
+        webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class HelloKotlinControllerTest {
 
     @Autowired
